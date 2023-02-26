@@ -204,6 +204,10 @@ CrazyLogin：自 Blessing Skin Server v4 起，CrazyLogin 数据对接不受 Ble
 
 如果您有安装并开启「密码算法转换」插件并且遇到了这个错误，请先认真阅读该插件的 Readme 并正确配置该插件。
 
+## 数据库向导页面提示 "could not find driver"
+
+先确认php数据库插件是否安装。例如使用的是MySQL，那么要检查php7.4-mysql是否已安装
+
 ## MySQL 错误码：2054
 
 出错消息会像这样：无法连接至 MySQL/MariaDB 服务器，请检查您的配置。服务器返回的信息：SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client
